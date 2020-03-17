@@ -5,7 +5,7 @@ body {
     margin: 0px;
 }
 .navbar {
-    background: dimgray;
+    background: black;
 }
 .navbar div {
     display: none;
@@ -19,13 +19,13 @@ body {
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    background: #223047;
-    color: white;
+    background:black;
+    color: #2490db;
 }
 .navbar .link:hover,
 .navbar .link:active {
-    color: #223047;
-    background: black;
+    color: black;
+    background: #2490db;
 }
 .navbar .brand {
     width: 10em;
@@ -38,7 +38,7 @@ body {
 }
 .navbar .toggle {
     padding: 1em;
-    color: black;
+    color: #2490db;
 }
 @media (min-width: 48em) {
     .navbar {
@@ -51,9 +51,6 @@ body {
     }
     .navbar .link {
         width: auto;
-    }
-    .navbar .right {
-        justify-content: flex-end;
     }
     .navbar .toggle {
         display: none;

@@ -9,7 +9,9 @@ export default function homeBody() {
                 <img src={Image}></img>
             </div>
             <div className="btn-wrapper">
-                <button>ENTER</button>
+                <a href="/home">
+                    <button>ENTER</button>
+                </a>
             </div>
         </div>
     )

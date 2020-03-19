@@ -1,8 +1,10 @@
 html {
     font-family: 'Wallpoet', cursive;
 }
+
 body {
     margin: 0px;
+    padding: 0px;
 }
 .navbar {
     background: black;
@@ -14,7 +16,7 @@ body {
 .navbar .brand {
     display: inline-block;
 }
-.navbar .link {
+.navbar .nav-link-active {
     display: block;
     text-align: center;
     padding: 1em;
@@ -22,8 +24,8 @@ body {
     background:black;
     color: #2490db;
 }
-.navbar .link:hover,
-.navbar .link:active {
+.navbar .nav-link-active:hover,
+.navbar .nav-link-active:active {
     color: black;
     background: #2490db;
 }
@@ -49,7 +51,7 @@ body {
         display: flex;
         flex: 1;
     }
-    .navbar .link {
+    .navbar .nav-link-active {
         width: auto;
     }
     .navbar .toggle {

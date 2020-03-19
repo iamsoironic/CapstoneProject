@@ -10,6 +10,10 @@ import { faHeadphones} from "@fortawesome/free-solid-svg-icons";
 
 import HomeBody from "./homeBody";
 import Home from "./home"
+import About from "./about"
+import Production from "./production"
+import Photography from "./photography"
+import Djing from "./djing"
 
 
 
@@ -30,6 +34,11 @@ export default class App extends Component {
                 <Route path="#" />
 
         <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/production" component={Production} />
+        <Route path="/photography" component={Photography} />
+        <Route path="/djing" component={Djing} />
+
       </Switch>
     </div>
   </Router>

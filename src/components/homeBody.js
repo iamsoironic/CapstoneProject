@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "../assets/images/logo.jpg";
+import Footer from "./navigation/footer"
 
 
 export default function homeBody() {

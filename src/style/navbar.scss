@@ -7,41 +7,53 @@ body {
     padding: 0px;
 }
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background: black;
+
+    div {
+        display: none;
+    }
+
+    .toggle .brand {
+        display: inline-block;
+    }
+
+
+    a {
+        display: block;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        background:black;
+        color: #2490db;
+
+        &:hover,
+        &:active {
+            color: black;
+            background: #2490db;
+        }
+    }
+
+    .brand {
+        width: 10em;
+        text-align: center;
+        padding: 1em;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .toggle {
+        padding: 1em;
+        color: #2490db;
+    }
 }
-.navbar div {
-    display: none;
-}
-.navbar .toggle,
-.navbar .brand {
-    display: inline-block;
-}
-.navbar .nav-link-active {
-    display: block;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
-    background:black;
-    color: #2490db;
-}
-.navbar .nav-link-active:hover,
-.navbar .nav-link-active:active {
-    color: black;
-    background: #2490db;
-}
-.navbar .brand {
-    width: 10em;
-    text-align: center;
-    padding: 1em;
-    color: white;
-}
-.navbar a {
-    text-decoration: none;
-}
-.navbar .toggle {
-    padding: 1em;
-    color: #2490db;
-}
+
+
 @media (min-width: 48em) {
     .navbar {
         display: flex;
@@ -69,7 +81,7 @@ body {
         color: white;
     }
     .navbar .brand {
-        text-align: left;
+        text-align: center;
     }
     .navbar.active div {
         display: block;

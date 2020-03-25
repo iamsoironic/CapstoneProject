@@ -23,7 +23,7 @@ module.exports = {
 
       {
         type: 'javascript/auto',
-        test: /\.(jpg|png|gif|eot|svg|ttf|woff|woff2)$/,
+        test: /\.(jpg|png|gif|eot|svg|ttf|woff|woff2|mp3)$/,
         loader: 'file-loader',
         options: {
           name: '[path][name].[ext]',
@@ -34,6 +34,10 @@ module.exports = {
       {
         test: /\.(mp4|webm)$/,
         loader: 'url?limit=10000',
+      },
+      {
+        test: /\.mp3$/,
+        loader: 'file-loader'
       },
     ],
   },

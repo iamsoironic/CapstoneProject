@@ -10,13 +10,13 @@ library.add(faHeadphones);
 
 export default function navbar() {
     return (
-        <div class="navbar-wrapper">
-            <div class="navbar">
-                <a href="#" class="toggle" id="navHamburger">
+        <div className="navbar-wrapper">
+            <div className="navbar">
+                <a href="#" className="toggle" id="navHeadphones">
                     <FontAwesomeIcon icon="headphones"/>
                 </a>
-                <a href="/" class="brand">So Ironic</a>
-            <div class="left">
+                <a href="/" className="brand">So Ironic</a>
+            <div className="left">
                 <div className="nav-link-wrapper">
                     <NavLink exact to="/home" activeClassName="nav-link-active">
                         Home

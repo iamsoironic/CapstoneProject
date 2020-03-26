@@ -6,7 +6,11 @@ import {
 } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeadphones} from "@fortawesome/free-solid-svg-icons";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+import { fab, faFacebook, faInstagram, faSoundcloud, faTwitter, faSnapchat, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
+
+
 
 import HomeBody from "./homeBody";
 import Home from "./home"
@@ -15,9 +19,7 @@ import Production from "./production"
 import Photography from "./photography"
 import Djing from "./djing"
 
-
-
-library.add(faHeadphones);
+library.add(fab, faHeadphones, faFacebook, faInstagram, faSoundcloud, faTwitter, faSnapchat, faYoutube );
 
 export default class App extends Component {
   render() {

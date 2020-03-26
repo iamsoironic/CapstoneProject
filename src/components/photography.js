@@ -5,26 +5,43 @@ import { Zoom } from "react-slideshow-image"
 import aboutImage from "../assets/images/SS3.jpg"
 import aboutImage2 from "../assets/images/SS7.jpg"
 import aboutImage3 from "../assets/images/SS15.jpg"
+import SlideImg1 from "../assets/images/SS1.jpg"
+import SlideImg2 from "../assets/images/SS2.jpg"
+import SlideImg3 from "../assets/images/SS3.jpg"
+import SlideImg4 from "../assets/images/SS4.jpg"
+import SlideImg5 from "../assets/images/SS5.jpg"
+import SlideImg6 from "../assets/images/SS6.jpg"
+import SlideImg7 from "../assets/images/SS7.jpg"
+import SlideImg8 from "../assets/images/SS8.jpg"
+import SlideImg9 from "../assets/images/SS9.jpg"
+import SlideImg10 from "../assets/images/SS10.jpg"
+import SlideImg11 from "../assets/images/SS11.jpg"
+import SlideImg12 from "../assets/images/SS12.jpg"
+import SlideImg13 from "../assets/images/SS13.jpg"
+import SlideImg14 from "../assets/images/SS14.jpg"
+import SlideImg15 from "../assets/images/SS15.jpg"
+import SlideImg16 from "../assets/images/SS16.jpg"
+import SlideImg17 from "../assets/images/SS17.jpg"
 
 
 const images = [
-    '../assets/images/SS1.jpg',
-    '../assets/images/SS2.jpg',
-    '../assets/images/SS3.jpg',
-    '../assets/images/SS4.jpg',
-    '../assets/images/SS5.jpg',
-    "../assets/images/SS6.jpg",
-    "../assets/images/SS7.jpg",
-    "../assets/images/SS8.jpg",
-    "../assets/images/SS9.jpg",
-    "../assets/images/SS10.jpg",
-    "../assets/images/SS11.jpg",
-    "../assets/images/SS12.jpg",
-    "../assets/images/SS13.jpg",
-    "../assets/images/SS14.jpg",
-    "../assets/images/SS15.jpg",
-    "../assets/images/SS16.jpg",
-    "../assets/images/SS17.jpg",
+    SlideImg1,
+    SlideImg2,
+    SlideImg3,
+    SlideImg4,
+    SlideImg5,
+    SlideImg6,
+    SlideImg7,
+    SlideImg8,
+    SlideImg9,
+    SlideImg10,
+    SlideImg11,
+    SlideImg12,
+    SlideImg13,
+    SlideImg14,
+    SlideImg15,
+    SlideImg16,
+    SlideImg17,
     
   ];
    
@@ -54,8 +71,6 @@ const images = [
                 </div>
             </div> 
             <NavBar />
-            <div className="name-wrapper">
-            </div>
             <div className="slide-container">
                 <Zoom {...zoomOutProperties}>
                     {

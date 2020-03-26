@@ -1,9 +1,5 @@
 .slideshow-wrapper {
 
-    .slide-container {
-    }
-    .name-wrapper {
-    }
     .page-container {
 
         p {
@@ -14,7 +10,7 @@
         }
 
         .content-wrapper {
-            margin-top: 70px;
+            margin-top: 50px;
 
             .about-pics {
                 margin-top: 50px;
@@ -30,6 +26,11 @@
                 width: 300px;
                 height: 200px;
             }
+            
         }
+    }
+    .slide-container {
+        width: 50vw;
+        margin-left: 580px;
     }
 }

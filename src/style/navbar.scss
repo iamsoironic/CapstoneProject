@@ -51,6 +51,12 @@ body {
         padding: 1em;
         color: #2490db;
     }
+    .right-navbar {
+        width: 1550px;
+        text-align: center;
+        justify-content: flex-end;
+        
+    }
 }
 
 
@@ -59,7 +65,7 @@ body {
         display: flex;
     }
     .navbar .left,
-    .navbar .right {
+    .navbar .right-navbar {
         display: flex;
         flex: 1;
     }

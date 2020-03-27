@@ -2,10 +2,10 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeadphones} from "@fortawesome/free-solid-svg-icons";
+import { faHeadphones, faAddressBook} from "@fortawesome/free-solid-svg-icons";
 
 
-library.add(faHeadphones);
+library.add(faHeadphones, faAddressBook);
 
 
 export default function navbar() {
@@ -42,8 +42,14 @@ export default function navbar() {
                         Djing
                     </NavLink>
                 </div>
+                <div className="right-navbar">
+                    <NavLink to="/contact" activeClassName="nav-link-active">
+                        <FontAwesomeIcon icon="address-book"/>
+                    </NavLink>
+                </div>
             </div>
             </div>
+            
         </div>
     )
 }

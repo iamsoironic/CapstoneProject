@@ -7,7 +7,7 @@ import Image5 from "../assets/images/trapped.jpg"
 
 export default function about() {
     return (
-        <div>
+        <div className="about-wrapper">
             <NavBar />
 
             <div className="img-about">
@@ -16,7 +16,7 @@ export default function about() {
 
             <div className="page-container">
                 <div className="content-wrapper">
-                    <img src="#" alt="Featured Chef" id="chef"/>
+                    <img src="#" alt="Featured Chef" id="soironic"/>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit enim repellat explicabo architecto, impedit ad eos vero nostrum, minus quidem magni, expedita itaque nisi nihil. Aspernatur ullam ut ea, impedit optio reprehenderit, corrupti repellat itaque eligendi molestias alias. Aliquid veniam quod unde inventore. Tempora fugit vel fugiat magnam nulla laborum ipsa hic, dicta iure consequatur minus in minima nihil itaque, aliquam incidunt unde saepe, corrupti necessitatibus odit delectus totam voluptatum? Quod sit vitae commodi! Similique quisquam omnis voluptatibus optio! Laborum, consequuntur nemo amet eos sunt nulla iusto excepturi maxime. Distinctio veritatis tempora tempore maiores rem modi voluptate odit, facere, eligendi sunt dicta, earum officia perspiciatis quas laboriosam reprehenderit consequatur minima beatae. Quae libero commodi sint, veritatis ab eligendi exercitationem iure consequuntur cum assumenda numquam ad deleniti neque perferendis maiores voluptatem velit? Rem deleniti illum maiores nulla ducimus! Nesciunt praesentium, sint aliquam ab sequi ratione quisquam commodi minima blanditiis assumenda, numquam quidem fugiat aspernatur dicta doloribus molestias explicabo incidunt? Aspernatur sequi accusamus nam enim temporibus pariatur soluta laboriosam optio sint fuga voluptatibus repudiandae voluptate eius porro quam ab vitae eos dolore est ratione sed, iure quis amet. Dignissimos doloremque quos alias, eos voluptatum deleniti quas magnam voluptas illo tempora dolorum? Neque.</p>
 

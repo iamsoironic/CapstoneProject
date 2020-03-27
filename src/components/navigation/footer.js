@@ -9,24 +9,28 @@ export default function footer() {
                 <div className="footer-logo">
                 </div>
                 <div className="icons">
-                    <a href="https://www.facebook.com/iamsoironic">
-                        <FontAwesomeIcon icon={["fab","facebook-square"]} />
-                    </a>
-                    <a href="https://www.instagram.com/iamsoironic/">
-                        <FontAwesomeIcon icon={["fab","instagram"]} />
-                    </a>
-                    <a href="https://soundcloud.com/iamsoironic">
-                        <FontAwesomeIcon icon={["fab","soundcloud"]} />
-                    </a>
-                    <a href="https://twitter.com/soironicbeats">
-                        <FontAwesomeIcon icon={["fab","twitter"]} />
-                    </a>
-                    <a href="#">
-                        <FontAwesomeIcon icon={["fab","snapchat"]} />
-                    </a>
-                    <a href="#">
-                        <FontAwesomeIcon icon={["fab","youtube"]} />
-                    </a>
+                    <div className="icon-left">
+                        <a href="https://www.facebook.com/iamsoironic">
+                            <FontAwesomeIcon icon={["fab","facebook-square"]} />
+                        </a>
+                        <a href="https://www.instagram.com/iamsoironic/">
+                            <FontAwesomeIcon icon={["fab","instagram"]} />
+                        </a>
+                        <a href="https://soundcloud.com/iamsoironic">
+                            <FontAwesomeIcon icon={["fab","soundcloud"]} />
+                        </a>
+                    </div>
+                    <div className="icon-right">
+                        <a href="https://twitter.com/soironicbeats">
+                            <FontAwesomeIcon icon={["fab","twitter"]} />
+                        </a>
+                        <a href="#">
+                            <FontAwesomeIcon icon={["fab","snapchat"]} />
+                        </a>
+                        <a href="#">
+                            <FontAwesomeIcon icon={["fab","youtube"]} />
+                        </a>
+                    </div>
                     
                 </div>
             </footer>

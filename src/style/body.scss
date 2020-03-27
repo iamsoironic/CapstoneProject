@@ -34,3 +34,11 @@
         }
     }
 }
+@media (max-width: 48em) {
+    .body-wrapper img {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+}

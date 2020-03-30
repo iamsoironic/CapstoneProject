@@ -12,17 +12,56 @@ export default class contact extends Component {
             message: ""
 
         }
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.componentDidMount = this.componentDidMount.bind(this);
     }
+
+    componentDidMount() {
+		fetch("http://127.0.0.1:5000/contact/get", {
+			method: "GET"
+		})
+			.then(response => response.json())
+			.then(data => console.log(data))
+			.catch(error => console.log(error));
+	}
+
+    handleChange(event) {
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+    }
+
+    handleSubmit() {
+        fetch("http://127.0.0.1:5000/contact/post", {
+            method: "POST",
+            headers: {
+                "content-type": "application/json"
+            },
+            body: JSON.stringify({
+                name: this.state.name,
+                email: this.state.email,
+                message: this.state.message
+            })
+        })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error));
+    }
+
     render() {
         return (
-            <div className="contact wrapper">
+            <div className="contact-wrapper">
                 <NavBar />
-                <form className="form-wrapper">
+                <form onSubmit={this.handleSubmit} className="form-wrapper">
                     <div className="form">
                         <input
                             type="text"
                             name="name"
                             placeholder="Your Name"
+                            value={this.state.name}
+                            onChange={this.handleChange}
+
                         />
                     </div>
                     <div className="form">
@@ -30,17 +69,21 @@ export default class contact extends Component {
                             type="email"
                             name="email"
                             placeholder="Your Email"
+                            value={this.state.email}
+                            onChange={this.handleChange}
                         />
                     </div>
                     <div className="form">
                         <textarea
                             name="message"
                             placeholder="Type Your Message"
+                            value={this.state.message}
+                            onChange={this.handleChange}
                         />
 
                     </div>
-                    <div class="btn-wrapper-form">
-                        <button type="submit" class="btn-form">Send</button>
+                    <div className="btn-wrapper-form">
+                        <button onClick={this.handleSubmit} type="submit" className="btn-form">Send</button>
                     </div>
                 </form>
                 <Footer />

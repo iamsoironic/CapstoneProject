@@ -7,6 +7,7 @@ body {
     padding: 0px;
 }
 .navbar {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
@@ -49,13 +50,7 @@ body {
 
     .toggle {
         padding: 1em;
-        color: #2490db;
-    }
-    .right-navbar {
-        width: 1550px;
-        text-align: center;
-        justify-content: flex-end;
-        
+        color: black;
     }
 }
 
@@ -72,6 +67,9 @@ body {
     .navbar .nav-link-active {
         width: auto;
     }
+    .navbar .right-navbar {
+        justify-content: flex-end;
+    }
     .navbar .toggle {
         display: none;
     }
@@ -87,7 +85,7 @@ body {
         color: white;
     }
     .navbar .brand {
-        text-align: center;
+        text-align: left;
     }
     .navbar.active div {
         display: block;

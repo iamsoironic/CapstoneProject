@@ -2,6 +2,7 @@
 .home-wrapper {
     margin: 0;
 
+
     .wall-image {
         margin: 50px;
         margin-top: 90px;
@@ -14,15 +15,13 @@
 
         img {
             width: 100vw;
+            
         }
     }
 }
 @media (max-width: 48em) {
-    .home-wrapper {
-        bottom: -20px;
+    .wall-image img {
         margin-top: 100px;
         margin-bottom: 100px;
-        display: flex;
-        flex-direction: column;
     }
 }

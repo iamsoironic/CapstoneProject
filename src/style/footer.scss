@@ -1,10 +1,12 @@
 .footer-wrapper {
+    position: relative;
     bottom: -20px;
     display: flex;
     justify-content: center;
     align-content: center;
     background: black;
     height: 200px;
+
 
     footer {
         width: 100vw;
@@ -49,10 +51,5 @@
     }
 }
 
-@media (max-width: 48em) {
 
-    .footer-wrapper {
-        
-    }
-}
 

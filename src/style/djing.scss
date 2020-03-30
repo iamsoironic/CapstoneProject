@@ -7,3 +7,9 @@
     margin-bottom: 450px;
     font-size: 70px;
 }
+
+@media(max-width: 48em) {
+    .h1-wrapper {
+        font-size: 30px;
+    }
+}

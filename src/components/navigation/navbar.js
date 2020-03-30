@@ -12,9 +12,6 @@ export default function navbar() {
     return (
         <div className="navbar-wrapper">
             <div className="navbar">
-                <a href="#" className="toggle" id="navHeadphones">
-                    <FontAwesomeIcon icon="headphones"/>
-                </a>
                 <a href="/" className="brand">So Ironic</a>
             <div className="left">
                 <div className="nav-link-wrapper">

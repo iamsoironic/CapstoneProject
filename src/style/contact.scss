@@ -92,9 +92,11 @@
     justify-content: center;
 }
 
-@media (min-width: 48em) {
+@media (max-width: 48em) {
     
     .form-wrapper {
         display: flex;
+        width: 300px;
+        margin-left: 40px;
     }
 }

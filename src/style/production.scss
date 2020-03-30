@@ -51,3 +51,9 @@ iframe {
     box-shadow: 0px 0px 45px -1px rgba(0,0,0,0.75);
 }
 
+@media (max-width: 48em) {
+    h1 {
+        margin-top: 150px;
+    }
+}
+

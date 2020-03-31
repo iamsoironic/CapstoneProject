@@ -1,5 +1,9 @@
-.footer-wrapper {
+body {
     position: relative;
+}
+
+.footer-wrapper {
+    position: fixed;
     bottom: -20px;
     display: flex;
     justify-content: center;

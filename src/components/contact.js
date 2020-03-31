@@ -18,7 +18,7 @@ export default class contact extends Component {
     }
 
     componentDidMount() {
-		fetch("https://ih-capstone-project-api.herokuapp.com/", {
+		fetch("https://ih-capstone-project-api.herokuapp.com/contact/get", {
 			method: "GET"
 		})
 			.then(response => response.json())
@@ -33,7 +33,7 @@ export default class contact extends Component {
     }
 
     handleSubmit() {
-        fetch("https://ih-capstone-project-api.herokuapp.com/", {
+        fetch("https://ih-capstone-project-api.herokuapp.com/contact/post", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

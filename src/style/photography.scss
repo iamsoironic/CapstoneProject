@@ -35,3 +35,31 @@
     }
 }
 
+@media (max-width: 48em) {
+
+    .slideshow-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .page-container {
+            margin-top: 300px;
+        }
+
+        .slide-container {
+            display: flex;
+            flex-direction: column;
+            margin-left: 120px;
+        }
+
+        .about-pics {
+            display: flex;
+            flex-direction: column;
+            margin-left: 80px;
+        }
+
+        .about-discription {
+            width: 100%;
+        }
+    }
+}
+

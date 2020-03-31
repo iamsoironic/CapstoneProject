@@ -50,7 +50,7 @@ body {
 
     .toggle {
         padding: 1em;
-        color: black;
+        color: #2490db;
     }
 }
 
@@ -80,14 +80,26 @@ body {
     }
 }
 @media (max-width: 48em) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
     .navbar.active .toggle {
-        background: #223047;
+        background: black;
         color: white;
     }
     .navbar .brand {
+        width: 100%;
         text-align: left;
+        overflow: hidden;
     }
     .navbar.active div {
         display: block;
     }
+
+    ul {
+        overflow: hidden;
+        margin-left: 20px;
+    }
+
 }

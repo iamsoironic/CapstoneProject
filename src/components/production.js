@@ -8,6 +8,7 @@ export default function production() {
         <div>
             <div>
                 <NavBar />
+                <div className="pro-wrapper">
                 <h1>Beats</h1>
                     <div className="song-1">
                         <iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743675230&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -29,6 +30,7 @@ export default function production() {
                     <div className="music-2">
                         <iframe src="https://open.spotify.com/embed/album/3hA159ukflNwWRDulYResZ" width="300" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
+                </div>
                     <Footer />
             </div>
         </div>

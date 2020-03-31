@@ -13,6 +13,15 @@ export default function navbar() {
         <div className="navbar-wrapper">
             <div className="navbar">
                 <a href="/" className="brand">So Ironic</a>
+                <ul className="toggle">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/production">Production</a></li>
+                        <li><a href="/photography">Photography</a></li>
+                        <li><a href="/djing">Djing</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                </ul>
+                    
             <div className="left">
                 <div className="nav-link-wrapper">
                     <NavLink exact to="/home" activeClassName="nav-link-active">

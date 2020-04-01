@@ -33,6 +33,8 @@ export default class contact extends Component {
     }
 
     handleSubmit() {
+        event.preventDefault()
+        
         fetch("https://ih-capstone-project-api.herokuapp.com/contact/post", {
             method: "POST",
             headers: {

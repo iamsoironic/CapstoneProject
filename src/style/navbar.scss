@@ -71,9 +71,6 @@ body {
     .navbar .right-navbar {
         justify-content: flex-end;
     }
-    .navbar .toggle {
-        display: none;
-    }
 }
 @media (min-width: 48em) {
     .navbar div {
@@ -81,26 +78,27 @@ body {
     }
 }
 @media (max-width: 48em) {
-    .navbar {
+    .navbar div {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+}
+@media (max-width: 48em) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .navbar.active .toggle {
         background: black;
         color: white;
     }
     .navbar .brand {
-        width: 100%;
+        display: none;
+        width: 20%;
         text-align: left;
         overflow: hidden;
-    }
-    .navbar.active div {
-        display: block;
-    }
-
-    ul {
-        overflow: hidden;
-        margin-left: 20px;
     }
 
 }

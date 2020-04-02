@@ -19,6 +19,7 @@ import Production from "./production"
 import Photography from "./photography"
 import Djing from "./djing"
 import Contact from "./contact"
+import NavPage from "./navigation/navPage"
 
 library.add(fab, faHeadphones, faFacebook, faInstagram, faSoundcloud, faTwitter, faSnapchat, faYoutube );
 
@@ -42,6 +43,7 @@ export default class App extends Component {
         <Route path="/photography" component={Photography} />
         <Route path="/djing" component={Djing} />
         <Route path="/contact" component={Contact} />
+        <Route path="/navpage" component={NavPage} />
 
       </Switch>
     </div>
